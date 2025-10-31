@@ -1,0 +1,62 @@
+src/Components/Styles/MovieSection.css
+
+.movie-section {
+    background:rgb(19, 18, 18);
+    padding: 40px 20px;
+    color:white;
+}
+
+/* Tabs */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    color: #aaa;
+    font-weight: 500;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    color: #ffc107;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 3px;
+}
+
+/* Movie Card */
+.movie-card {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-poster {
+    width: 100%;
+    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* View All */
+.view-all {
+    color: #0dcaf0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
